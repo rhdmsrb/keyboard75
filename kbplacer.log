@@ -2,7 +2,7 @@ INFO: kbplacer_plugin_action.py:73: Plugin version: 0.20
 INFO: kbplacer_plugin_action.py:74: Python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
 INFO: kbplacer_plugin_action.py:75: KiCad version: 10.0.0-rc2 with 4.2.2a1 osx-cocoa (phoenix) wxWidgets 3.2.8
 INFO: kbplacer_dialog.py:803: Language: en
-INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "/Users/danny/keyboard75/layout_via.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 4.0, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0, "layout_offset": null}
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "/Users/danny/keyboard75/layout_via.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 4.0, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": true, "template_path": "", "generate_outline": true, "outline_delta": 0.0, "layout_offset": null}
 DEBUG: key_placer.py:161: Switches by nets: defaultdict(<class 'list'>, {frozenset({'COL9', 'ROW5'}): ['SW84'], frozenset({'ROW5', 'COL8'}): ['SW83'], frozenset({'ROW5', 'COL7'}): ['SW82'], frozenset({'COL6', 'ROW5'}): ['SW81'], frozenset({'ROW5', 'COL5'}): ['SW80'], frozenset({'COL4', 'ROW5'}): ['SW79'], frozenset({'COL3', 'ROW5'}): ['SW78'], frozenset({'ROW5', 'COL2'}): ['SW77'], frozenset({'ROW5', 'COL1'}): ['SW76'], frozenset({'COL0', 'ROW5'}): ['SW75'], frozenset({'ROW4', 'COL13'}): ['SW74'], frozenset({'COL12', 'ROW4'}): ['SW73'], frozenset({'COL11', 'ROW4'}): ['SW72'], frozenset({'COL10', 'ROW4'}): ['SW71'], frozenset({'COL9', 'ROW4'}): ['SW70'], frozenset({'ROW4', 'COL8'}): ['SW69'], frozenset({'ROW4', 'COL7'}): ['SW68'], frozenset({'ROW4', 'COL6'}): ['SW67'], frozenset({'ROW4', 'COL5'}): ['SW66'], frozenset({'COL4', 'ROW4'}): ['SW65'], frozenset({'COL3', 'ROW4'}): ['SW64'], frozenset({'ROW4', 'COL2'}): ['SW63'], frozenset({'ROW4', 'COL1'}): ['SW62'], frozenset({'COL0', 'ROW4'}): ['SW61'], frozenset({'ROW3', 'COL13'}): ['SW60'], frozenset({'COL12', 'ROW3'}): ['SW59'], frozenset({'COL11', 'ROW3'}): ['SW58'], frozenset({'COL10', 'ROW3'}): ['SW57'], frozenset({'COL9', 'ROW3'}): ['SW56'], frozenset({'ROW3', 'COL8'}): ['SW55'], frozenset({'ROW3', 'COL7'}): ['SW54'], frozenset({'ROW3', 'COL6'}): ['SW53'], frozenset({'ROW3', 'COL5'}): ['SW52'], frozenset({'COL4', 'ROW3'}): ['SW51'], frozenset({'COL3', 'ROW3'}): ['SW50'], frozenset({'ROW3', 'COL2'}): ['SW49'], frozenset({'ROW3', 'COL1'}): ['SW48'], frozenset({'COL0', 'ROW3'}): ['SW47'], frozenset({'COL14', 'ROW2'}): ['SW46'], frozenset({'COL13', 'ROW2'}): ['SW45'], frozenset({'COL12', 'ROW2'}): ['SW44'], frozenset({'COL11', 'ROW2'}): ['SW43'], frozenset({'COL10', 'ROW2'}): ['SW42'], frozenset({'COL9', 'ROW2'}): ['SW41'], frozenset({'ROW2', 'COL8'}): ['SW40'], frozenset({'ROW2', 'COL7'}): ['SW39'], frozenset({'COL6', 'ROW2'}): ['SW38'], frozenset({'ROW2', 'COL5'}): ['SW37'], frozenset({'COL4', 'ROW2'}): ['SW36'], frozenset({'COL3', 'ROW2'}): ['SW35'], frozenset({'ROW2', 'COL2'}): ['SW34'], frozenset({'ROW2', 'COL1'}): ['SW33'], frozenset({'COL0', 'ROW2'}): ['SW32'], frozenset({'COL14', 'ROW1'}): ['SW31'], frozenset({'COL13', 'ROW1'}): ['SW30'], frozenset({'COL12', 'ROW1'}): ['SW29'], frozenset({'COL11', 'ROW1'}): ['SW28'], frozenset({'COL10', 'ROW1'}): ['SW27'], frozenset({'COL9', 'ROW1'}): ['SW26'], frozenset({'ROW1', 'COL8'}): ['SW25'], frozenset({'ROW1', 'COL7'}): ['SW24'], frozenset({'COL6', 'ROW1'}): ['SW23'], frozenset({'ROW1', 'COL5'}): ['SW22'], frozenset({'COL4', 'ROW1'}): ['SW21'], frozenset({'COL3', 'ROW1'}): ['SW20'], frozenset({'ROW1', 'COL2'}): ['SW19'], frozenset({'ROW1', 'COL1'}): ['SW18'], frozenset({'COL0', 'ROW1'}): ['SW17'], frozenset({'COL15', 'ROW0'}): ['SW16'], frozenset({'COL14', 'ROW0'}): ['SW15'], frozenset({'COL13', 'ROW0'}): ['SW14'], frozenset({'COL12', 'ROW0'}): ['SW13'], frozenset({'COL11', 'ROW0'}): ['SW12'], frozenset({'COL10', 'ROW0'}): ['SW11'], frozenset({'COL9', 'ROW0'}): ['SW10'], frozenset({'COL8', 'ROW0'}): ['SW9'], frozenset({'COL7', 'ROW0'}): ['SW8'], frozenset({'COL6', 'ROW0'}): ['SW7'], frozenset({'COL5', 'ROW0'}): ['SW6'], frozenset({'COL4', 'ROW0'}): ['SW5'], frozenset({'COL3', 'ROW0'}): ['SW4'], frozenset({'COL2', 'ROW0'}): ['SW3'], frozenset({'COL1', 'ROW0'}): ['SW2'], frozenset({'COL0', 'ROW0'}): ['SW1']})
 DEBUG: key_placer.py:165: Diodes by switch: {'SW84': ['D84'], 'SW83': ['D83'], 'SW82': ['D82'], 'SW81': ['D81'], 'SW80': ['D80'], 'SW79': ['D79'], 'SW78': ['D78'], 'SW77': ['D77'], 'SW76': ['D76'], 'SW75': ['D75'], 'SW74': ['D74'], 'SW73': ['D73'], 'SW72': ['D72'], 'SW71': ['D71'], 'SW70': ['D70'], 'SW69': ['D69'], 'SW68': ['D68'], 'SW67': ['D67'], 'SW66': ['D66'], 'SW65': ['D65'], 'SW64': ['D64'], 'SW63': ['D63'], 'SW62': ['D62'], 'SW61': ['D61'], 'SW60': ['D60'], 'SW59': ['D59'], 'SW58': ['D58'], 'SW57': ['D57'], 'SW56': ['D56'], 'SW55': ['D55'], 'SW54': ['D54'], 'SW53': ['D53'], 'SW52': ['D52'], 'SW51': ['D51'], 'SW50': ['D50'], 'SW49': ['D49'], 'SW48': ['D48'], 'SW47': ['D47'], 'SW46': ['D46'], 'SW45': ['D45'], 'SW44': ['D44'], 'SW43': ['D43'], 'SW42': ['D42'], 'SW41': ['D41'], 'SW40': ['D40'], 'SW39': ['D39'], 'SW38': ['D38'], 'SW37': ['D37'], 'SW36': ['D36'], 'SW35': ['D35'], 'SW34': ['D34'], 'SW33': ['D33'], 'SW32': ['D32'], 'SW31': ['D31'], 'SW30': ['D30'], 'SW29': ['D29'], 'SW28': ['D28'], 'SW27': ['D27'], 'SW26': ['D26'], 'SW25': ['D25'], 'SW24': ['D24'], 'SW23': ['D23'], 'SW22': ['D22'], 'SW21': ['D21'], 'SW20': ['D20'], 'SW19': ['D19'], 'SW18': ['D18'], 'SW17': ['D17'], 'SW16': ['D16'], 'SW15': ['D15'], 'SW14': ['D14'], 'SW13': ['D13'], 'SW12': ['D12'], 'SW11': ['D11'], 'SW10': ['D10'], 'SW9': ['D9'], 'SW8': ['D8'], 'SW7': ['D7'], 'SW6': ['D6'], 'SW5': ['D5'], 'SW4': ['D4'], 'SW3': ['D3'], 'SW2': ['D2'], 'SW1': ['D1']}
 INFO: key_placer.py:1470: Detected layout convertible to matrix annotated keyboard
@@ -1119,8 +1119,6 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(45460000, 72447500),
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW61:1' at (53816250, 111760000) with pad 'SW75:1' at (47841250, 130810000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(53816250, 111760000), (53816250, 124835000)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(53816250, 124835000), (47841250, 130810000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW32:1' at (48497500, 73660000) with pad 'SW47:1' at (49053750, 92710000) using coordinate system rotated by 0 degree(s)
@@ -1195,8 +1193,6 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(121660000, 67685000)
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW36:1' at (131185000, 73660000) with pad 'SW51:1' at (132397500, 92710000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(131185000, 73660000), (131185000, 91497500)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(131185000, 91497500), (132397500, 92710000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW51:1' at (135947500, 92710000) with pad 'SW65:1' at (141922500, 111760000) using coordinate system rotated by 0 degree(s)
@@ -1255,8 +1251,6 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(102610000, 67685000)
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW35:1' at (112135000, 73660000) with pad 'SW50:1' at (113347500, 92710000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(112135000, 73660000), (112135000, 91497500)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(112135000, 91497500), (113347500, 92710000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW50:1' at (116897500, 92710000) with pad 'SW64:1' at (122872500, 111760000) using coordinate system rotated by 0 degree(s)
@@ -1265,8 +1259,6 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(116897500, 105785000
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW64:1' at (126422500, 111760000) with pad 'SW78:1' at (163353750, 130810000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(126422500, 111760000), (145472500, 130810000)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(145472500, 130810000), (163353750, 130810000)]
 INFO: key_placer.py:1273: Routing COL9 pads
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
@@ -1280,8 +1272,6 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(216910000, 67685000)
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW41:1' at (226435000, 73660000) with pad 'SW56:1' at (227647500, 92710000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(226435000, 73660000), (226435000, 91497500)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(226435000, 91497500), (227647500, 92710000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW56:1' at (231197500, 92710000) with pad 'SW70:1' at (237172500, 111760000) using coordinate system rotated by 0 degree(s)
@@ -1303,8 +1293,6 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(159760000, 67685000)
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW38:1' at (169285000, 73660000) with pad 'SW53:1' at (170497500, 92710000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(169285000, 73660000), (169285000, 91497500)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(169285000, 91497500), (170497500, 92710000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW53:1' at (174047500, 92710000) with pad 'SW67:1' at (180022500, 111760000) using coordinate system rotated by 0 degree(s)
@@ -1326,13 +1314,9 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(83560000, 67685000),
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW34:1' at (93085000, 73660000) with pad 'SW49:1' at (94297500, 92710000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(93085000, 73660000), (93085000, 91497500)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(93085000, 91497500), (94297500, 92710000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW63:1' at (103822500, 111760000) with pad 'SW77:1' at (95466250, 130810000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(103822500, 111760000), (103822500, 122453750)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(103822500, 122453750), (95466250, 130810000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW49:1' at (97847500, 92710000) with pad 'SW63:1' at (103822500, 111760000) using coordinate system rotated by 0 degree(s)
@@ -1391,8 +1375,6 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(235960000, 67685000)
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW42:1' at (245485000, 73660000) with pad 'SW57:1' at (246697500, 92710000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(245485000, 73660000), (245485000, 91497500)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(245485000, 91497500), (246697500, 92710000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW57:1' at (250247500, 92710000) with pad 'SW71:1' at (256222500, 111760000) using coordinate system rotated by 0 degree(s)
@@ -1526,8 +1508,6 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(140710000, 67685000)
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW37:1' at (150235000, 73660000) with pad 'SW52:1' at (151447500, 92710000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(150235000, 73660000), (150235000, 91497500)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(150235000, 91497500), (151447500, 92710000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW52:1' at (154997500, 92710000) with pad 'SW66:1' at (160972500, 111760000) using coordinate system rotated by 0 degree(s)
@@ -1549,13 +1529,9 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(64510000, 67685000),
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW62:1' at (84772500, 111760000) with pad 'SW76:1' at (71653750, 130810000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(84772500, 111760000), (84772500, 117691250)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(84772500, 117691250), (71653750, 130810000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW33:1' at (74035000, 73660000) with pad 'SW48:1' at (75247500, 92710000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(74035000, 73660000), (74035000, 91497500)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(74035000, 91497500), (75247500, 92710000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW48:1' at (78797500, 92710000) with pad 'SW62:1' at (84772500, 111760000) using coordinate system rotated by 0 degree(s)
@@ -1574,8 +1550,6 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(178810000, 67685000)
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW39:1' at (188335000, 73660000) with pad 'SW54:1' at (189547500, 92710000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(188335000, 73660000), (188335000, 91497500)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(188335000, 91497500), (189547500, 92710000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW54:1' at (193097500, 92710000) with pad 'SW68:1' at (199072500, 111760000) using coordinate system rotated by 0 degree(s)
@@ -1680,8 +1654,6 @@ INFO: board_modifier.py:509: Adding track segment (F.Cu): [(197860000, 67685000)
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW40:1' at (207385000, 73660000) with pad 'SW55:1' at (208597500, 92710000) using coordinate system rotated by 0 degree(s)
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(207385000, 73660000), (207385000, 91497500)]
-INFO: board_modifier.py:509: Adding track segment (F.Cu): [(207385000, 91497500), (208597500, 92710000)]
 DEBUG: board_modifier.py:606: Routing at F.Cu layer
 DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'SW55:1' at (212147500, 92710000) with pad 'SW69:1' at (218122500, 111760000) using coordinate system rotated by 0 degree(s)
@@ -1752,3 +1724,189 @@ DEBUG: board_modifier.py:623: Netclass: Default, track width: 200000
 INFO: board_modifier.py:689: Routing pad 'D15:1' at (309880000, 43750000) with pad 'D16:1' at (328930000, 43750000) using coordinate system rotated by 0 degree(s)
 INFO: board_modifier.py:509: Adding track segment (B.Cu): [(309880000, 43750000), (328930000, 43750000)]
 INFO: key_placer.py:625: Removing dangling tracks
+INFO: key_placer.py:640: Removing 683f45a3-9067-4205-b28f-fa2d773f848c
+INFO: key_placer.py:640: Removing 2f6f5c82-892b-4713-a527-da05d0b0d923
+INFO: key_placer.py:640: Removing 9129a561-44ee-47bc-9a36-405c510d01d0
+INFO: key_placer.py:640: Removing a084bddc-f4d5-4005-b39c-30e6627bcf54
+INFO: key_placer.py:640: Removing c7be2ff6-2f82-40bd-88f5-f130a435df9e
+INFO: key_placer.py:640: Removing 206037ea-4d6b-4875-844e-45103afe39ad
+INFO: key_placer.py:640: Removing 8e61a70c-57e3-425b-af89-e7c61e858cce
+INFO: key_placer.py:640: Removing 0e65ca68-2ed8-4f3e-be6f-7edb02c9bc89
+INFO: key_placer.py:640: Removing cb0a95a4-fe68-4afe-9643-127cb40bbb8a
+INFO: key_placer.py:640: Removing a4feecc4-ff46-4256-82ab-b7499c15308d
+INFO: key_placer.py:640: Removing 986d9a80-7016-494b-8227-8209877c8107
+INFO: key_placer.py:640: Removing e4ebbf96-a9dd-4b4c-acad-e2cab773ad74
+INFO: key_placer.py:640: Removing 51fefc11-d76b-4db5-a757-a7a1dfab5355
+INFO: key_placer.py:640: Removing a0daf155-4fb9-4fb2-ad09-5a7aa5d2aa96
+INFO: key_placer.py:640: Removing 165393c2-18b0-418b-86c0-d8820da3cbea
+INFO: key_placer.py:640: Removing 3e674567-6b8a-437f-ae28-e83025746161
+INFO: key_placer.py:640: Removing 8c9c46b4-6c86-48f4-901c-b9e3a7743475
+INFO: key_placer.py:640: Removing b9cedba3-eae4-4dc7-b892-4c3cb621490a
+INFO: key_placer.py:640: Removing f129d20e-f7ad-436b-99ec-e81d69904d2e
+INFO: key_placer.py:640: Removing ddbf4897-06d5-4604-9aec-a437faf33a84
+INFO: key_placer.py:640: Removing 825e6502-a695-45cf-b17b-84fffe4e1751
+INFO: key_placer.py:640: Removing 720eca31-5943-48d6-8f12-134954dc414a
+INFO: key_placer.py:640: Removing 387eee0d-01fc-4872-bb18-37a8f379fee7
+INFO: key_placer.py:640: Removing 61a4922b-ea88-47aa-a409-7eb1d129f1c8
+INFO: key_placer.py:640: Removing b3bbdd98-2f0b-44ce-9411-ad8e88baa1fa
+INFO: key_placer.py:640: Removing de810524-c00c-45dc-a2d3-4204b1fa1d9c
+INFO: key_placer.py:640: Removing c42b7fed-a0d2-4cdb-92e9-44c3ecd0f03f
+INFO: key_placer.py:640: Removing da2c2bc1-b63a-4db1-851d-4875efb4bf14
+INFO: key_placer.py:640: Removing 6e8b0a1b-24de-4b0e-81ec-f142bec002f2
+INFO: key_placer.py:640: Removing 3756dbba-33eb-445a-8e51-bc5bf1753bab
+INFO: key_placer.py:640: Removing d0ac2204-88ee-4670-87c4-9eb9bfaa9d18
+INFO: key_placer.py:640: Removing 0c0726bd-832d-4502-8708-bdef99debe98
+INFO: key_placer.py:640: Removing 04e968fc-3c25-4bf1-bda7-cb793bf00da6
+INFO: key_placer.py:640: Removing 05c64874-6aa7-4e52-b738-550127bfcff1
+INFO: key_placer.py:640: Removing 8e5208ad-166f-4e96-970f-2e2bbbfa05c3
+INFO: key_placer.py:640: Removing 7339e3eb-452f-4e9b-9545-7d37dcae8ef7
+INFO: key_placer.py:640: Removing ea6f60aa-2adb-4d95-91df-b53b05a41b72
+INFO: key_placer.py:640: Removing 5757da56-b229-4fc3-8af5-1ef07abf6618
+INFO: key_placer.py:640: Removing ef2d964e-bcd5-4299-b5c6-08ff99f94dc6
+INFO: key_placer.py:640: Removing d9d920e6-6927-41de-9fbd-5139c96ec15b
+INFO: key_placer.py:640: Removing 5609f39c-1555-4928-81f1-a6645f803cca
+INFO: key_placer.py:640: Removing 58e7c16e-1aa4-47a4-9560-01e1669b803b
+INFO: key_placer.py:640: Removing 679a1dfb-b59a-49a0-8128-843862a57591
+INFO: key_placer.py:640: Removing 3ab9c82d-b082-40b2-94b8-c99fe18dd32a
+INFO: key_placer.py:640: Removing 8b56eb1a-9ca6-4765-b3e7-1e399f1c9770
+INFO: key_placer.py:640: Removing 96e17727-9349-4bf6-98a0-8950c4eada0b
+INFO: key_placer.py:640: Removing 84d61ca6-949e-472c-b239-97c97a676d40
+INFO: key_placer.py:640: Removing cfb19951-c3a2-4782-a83c-f327e87301e2
+INFO: key_placer.py:640: Removing c3b9b923-c9a8-40f9-817d-6d3742df76bf
+INFO: key_placer.py:640: Removing 76ad0d11-6741-4787-a93c-171b4e86ba1c
+INFO: key_placer.py:640: Removing a3a43d4c-facc-40dc-bd22-13f1cb24e278
+INFO: key_placer.py:640: Removing 64ad4a88-b218-4205-898e-55ae2b2ea730
+INFO: key_placer.py:640: Removing 5db85b6b-897a-418d-a663-748cef304777
+INFO: key_placer.py:640: Removing 96538ce6-ff5f-4653-ad66-c484cd04b4bd
+INFO: key_placer.py:640: Removing ab794e21-73bb-4888-bc15-c801f39e335f
+INFO: key_placer.py:640: Removing da7301c0-3f69-4ea0-9922-f5f3dd85e3a1
+INFO: key_placer.py:640: Removing b47d84cf-b5c3-457b-a31c-950b1ddc7858
+INFO: key_placer.py:640: Removing 48d33f1e-30cd-47e2-82c3-fb0f3741273d
+INFO: key_placer.py:640: Removing 782b9c4d-f12c-41b2-96f8-173525fc54e0
+INFO: key_placer.py:640: Removing a19cc5fe-0a86-4ae5-96bd-d2f38d1c0187
+INFO: key_placer.py:640: Removing 1562103b-38fe-456e-870d-2bbf372e6ba5
+INFO: key_placer.py:640: Removing 38bba55a-7dd0-4245-adde-e98f638e565e
+INFO: key_placer.py:640: Removing 93b16a81-c0b0-4d84-bc7f-e05388334949
+INFO: key_placer.py:640: Removing fd45b995-8846-4b1b-8f50-a2b50e4471d8
+INFO: key_placer.py:640: Removing eade9928-3e12-48c0-86e2-7cca10bc2446
+INFO: key_placer.py:640: Removing 1a975602-1d98-490d-9ba8-8e37de81207c
+INFO: key_placer.py:640: Removing 830e2202-abca-418a-8a9d-d795f4e755e6
+INFO: key_placer.py:640: Removing 6c01145a-dc52-4acf-8b06-8131e0f2a084
+INFO: key_placer.py:640: Removing 12abe3b0-cff7-4212-97ad-8123178385e6
+INFO: key_placer.py:640: Removing 03bf334d-4623-44fd-9e01-8db607a9df5d
+INFO: key_placer.py:640: Removing ade207ff-6e6f-4b8d-a9b4-8976088ce148
+INFO: key_placer.py:640: Removing 743093c8-e351-4d5f-89a1-d1d65be3b99a
+INFO: key_placer.py:640: Removing 33f2f15c-2a2c-458d-a3e7-32f3cd8ebae4
+INFO: key_placer.py:640: Removing 1ccc96c5-b520-44d0-837f-a20a2a6308eb
+INFO: key_placer.py:640: Removing 0cd9a536-ae31-47a3-ad27-13c0d2eb1b20
+INFO: key_placer.py:640: Removing d1f83405-0a0f-43da-9ef8-dbfd7755ba3f
+INFO: key_placer.py:640: Removing fd2e8bca-4d36-4698-961d-5f705cc1a07f
+INFO: key_placer.py:640: Removing d500cfd9-51e0-40a0-b68b-7f316435ec7f
+INFO: key_placer.py:640: Removing 3a3b99ec-33f8-4494-be0b-24610d0a1d05
+INFO: key_placer.py:640: Removing 8a11ee1c-8868-4a20-ad74-2099a82b485a
+INFO: key_placer.py:640: Removing 76f2f0d6-d227-4922-b0f9-4c6d096f0d4b
+INFO: key_placer.py:640: Removing c35fbc77-7865-4efc-a1fc-545de5befc1d
+INFO: key_placer.py:640: Removing f8f530c1-4353-4fe3-b0f7-af4b93189683
+INFO: key_placer.py:640: Removing ee5ebbff-309e-42f6-ae18-cc34303db8ee
+INFO: key_placer.py:640: Removing 59e67191-d637-4cfd-b7e4-b7270193b429
+INFO: key_placer.py:640: Removing 6ee573cd-32d7-4a2c-9379-5356ede88808
+INFO: key_placer.py:640: Removing f1178627-5888-49c6-99f5-31f41da215cb
+INFO: key_placer.py:640: Removing fff2a44e-4acc-4e76-ba81-396f029081ce
+INFO: key_placer.py:640: Removing 3c24ba82-c5a4-4748-a867-1fe9841cdc67
+INFO: key_placer.py:640: Removing b8ef865e-65fc-4f4d-9cab-b440e347d8b8
+INFO: key_placer.py:640: Removing ed846e69-2ab6-469e-bc96-193a3aa2f8f4
+INFO: key_placer.py:640: Removing 5ac9dacf-4d95-428d-bd77-0bf605a5adbc
+INFO: key_placer.py:640: Removing 1e5ad35f-2be3-4539-ba3f-25843a74937f
+INFO: key_placer.py:640: Removing 593ce5da-a973-48a9-970f-c0e941fb5a28
+INFO: key_placer.py:640: Removing 0d48d508-8aa1-44a4-9f30-b04ced7789eb
+INFO: key_placer.py:640: Removing 2bc54943-bfcf-40c5-a821-807ca245d707
+INFO: key_placer.py:640: Removing fb0983f0-8d0b-452a-95a1-222f578fd133
+INFO: key_placer.py:640: Removing 3e5c3e2e-b4c1-4dbe-9240-e275bd7e69a2
+INFO: key_placer.py:640: Removing bf65bb9f-a6c8-4865-9ffb-22fcd990a8b8
+INFO: key_placer.py:640: Removing 195d2b41-a38a-49e3-8f18-8b525306db39
+INFO: key_placer.py:640: Removing 5232cbb8-f04c-4d73-b987-c655f33e25ff
+INFO: key_placer.py:640: Removing 5f649de1-93c3-4db8-a4bc-7eb7bc908356
+INFO: key_placer.py:640: Removing d5e605b7-57d2-4b3d-ab80-5544a72e1afe
+INFO: key_placer.py:640: Removing 95ea2f7e-b807-4f25-a5aa-5d8e0a1731c7
+INFO: key_placer.py:640: Removing 07ba3fea-4c6e-443b-8b1e-0ec0f3a8a204
+INFO: key_placer.py:640: Removing f7cac683-4e81-44a8-a2ae-536a351b6612
+INFO: key_placer.py:640: Removing 7e2b5186-9937-412f-a607-18f47b16e11d
+INFO: key_placer.py:640: Removing 10d157bd-1a1c-4c2e-b6ac-778d6d029c6b
+INFO: key_placer.py:640: Removing 3add5a9d-6bfa-4830-8d63-0328f01a7cb1
+INFO: key_placer.py:640: Removing 0ade9322-2237-46ea-832c-6e6494ff199c
+INFO: key_placer.py:640: Removing 645af4b9-2b5a-47fc-99dc-df21b8f2acec
+INFO: key_placer.py:640: Removing 478debe7-3901-4d8e-8e6e-3c24769aed1b
+INFO: key_placer.py:640: Removing 7928a18c-2cd5-44fe-a36e-2fbf77bb9081
+INFO: key_placer.py:640: Removing 8073c5fa-d919-4bbf-a81d-39edd4199c0d
+INFO: key_placer.py:640: Removing 9ce20f11-d605-4333-9d9b-a53a2f5d1ba5
+INFO: key_placer.py:640: Removing f1e5d451-6cfa-4994-ac9a-297d0a1cde5d
+INFO: key_placer.py:640: Removing df23abf9-e5eb-4135-9640-23b4614ceb93
+INFO: key_placer.py:640: Removing 8f2fb9b5-710c-4206-a374-07de6933a2da
+INFO: key_placer.py:640: Removing b95a7d3f-ffbf-407d-aa04-1829849a5317
+INFO: key_placer.py:640: Removing 820e1edd-0950-4466-b81b-ce4fe73a7550
+INFO: key_placer.py:640: Removing 0189e857-34e7-438b-a80e-7ffb3e359fdf
+INFO: key_placer.py:640: Removing 48bd767c-91ab-49cb-ba4c-5a3d3b0e21d8
+INFO: key_placer.py:640: Removing 2d7e52fd-44ea-4ff6-9be4-1f73202d6111
+INFO: key_placer.py:640: Removing 06fdb627-7c80-49ec-8026-0fe42aa857a6
+INFO: key_placer.py:640: Removing 6a4f598d-1a5e-4570-af64-bcb23071a543
+INFO: key_placer.py:640: Removing baee9f0c-b35c-4a1e-8108-8a2e24c06549
+INFO: key_placer.py:640: Removing 2d0a402f-6df9-4086-b7a9-99f977ef684d
+INFO: key_placer.py:640: Removing 1ce4f0c5-f015-4c40-a714-ae888b09664d
+INFO: key_placer.py:640: Removing fc283b05-2c31-4c74-97c3-e334f47c73c2
+INFO: key_placer.py:640: Removing 6f0591ff-bb24-412a-8c02-578db0b9d839
+INFO: key_placer.py:640: Removing a13da504-a11c-4042-b53d-adf2edc142a5
+INFO: key_placer.py:640: Removing e6e76155-b062-4d1e-b20f-1c7bde6e41d1
+INFO: key_placer.py:640: Removing 843b3077-93ac-4732-82ee-24972c3709e9
+INFO: key_placer.py:640: Removing fb0cd651-8ab8-4984-8f22-cb53dad2443a
+INFO: key_placer.py:640: Removing 76053a35-b2d9-40ac-8979-e69e46b95eb6
+INFO: key_placer.py:640: Removing 23da1961-abb9-4a2b-a6a4-c6bf1de0b40c
+INFO: key_placer.py:640: Removing 02466f84-6a94-4f36-8382-9a8ed2f474c8
+INFO: key_placer.py:640: Removing 90e754e0-8094-4565-946f-5e9671c8a7e7
+INFO: key_placer.py:640: Removing e33b4f56-971b-46c9-87c2-461e16c8190f
+INFO: key_placer.py:640: Removing dc4f612a-deb0-45e4-8290-09ee7128df7f
+INFO: key_placer.py:640: Removing ba2f4346-75d3-4696-802c-d67dfb751b17
+INFO: key_placer.py:640: Removing c83e5fd9-e5c3-458f-86b1-c6c12917e2f3
+INFO: key_placer.py:640: Removing d2c32635-80ca-49e4-8167-9ec0df716207
+INFO: key_placer.py:640: Removing 4c16a6f1-9cba-4d9b-be70-a71a2d2d4fbb
+INFO: key_placer.py:640: Removing efeb61bc-1d2f-4927-a0ba-39bbe579f029
+INFO: key_placer.py:640: Removing 605cad65-642c-46d7-af88-92d754d1d399
+INFO: key_placer.py:640: Removing 3648bf51-3936-4c72-81d9-74413f923c9d
+INFO: key_placer.py:640: Removing c747eafc-da42-49ab-b081-1922a51897a4
+INFO: key_placer.py:640: Removing ed9b0c53-1c89-4eba-a276-db762cbd1605
+INFO: key_placer.py:640: Removing 1ca86543-4e6d-4534-bb76-1eec80ff8094
+INFO: key_placer.py:640: Removing 7c9275df-62d0-48bd-b42f-8ea5b9ebd82c
+INFO: key_placer.py:640: Removing f7cf79d3-f988-4fa0-9af9-47d781e95854
+INFO: key_placer.py:640: Removing d6231d3c-c27c-4af5-88c5-421a3fbe1ef5
+INFO: key_placer.py:640: Removing 53959e62-734c-411f-8835-9b6081dd9169
+INFO: key_placer.py:640: Removing 5742644c-046e-4b48-9b92-5192e7b8e1eb
+INFO: key_placer.py:640: Removing bde950aa-6a46-4416-bb6f-24299e0a66a7
+INFO: key_placer.py:640: Removing 334a7567-822f-4110-9893-945b97e00e8f
+INFO: key_placer.py:640: Removing 19989464-4b52-4752-815e-79973565bc66
+INFO: key_placer.py:640: Removing dbba9c7c-2237-44e7-b1b0-953bbdf0cafe
+INFO: key_placer.py:640: Removing dc5eacdf-385b-49c1-88e8-88dcbd9cb99c
+INFO: key_placer.py:640: Removing 3b767390-4bb7-4273-8974-6b5d3a3a3da6
+INFO: key_placer.py:640: Removing d46935b5-82a4-461d-a9f1-32be9c184b3f
+INFO: key_placer.py:640: Removing 774d8ea6-1ce8-4c93-aa73-99ebc5684bf6
+INFO: key_placer.py:640: Removing ed06621f-b518-44e8-aba4-bcfa0afeca21
+INFO: key_placer.py:640: Removing 3e90c7ec-091c-46a5-b80c-a33065a8f2f1
+INFO: key_placer.py:640: Removing 1d880732-3ba3-4255-9a65-1cc4a3b51bd7
+INFO: key_placer.py:640: Removing 4aeeb8c7-18b7-452f-bdec-2215cbd8217b
+INFO: key_placer.py:640: Removing 99814ec3-fbef-4ca1-84a2-5e61fa119edd
+INFO: key_placer.py:640: Removing 259a4718-c325-4fe5-bc82-31d55df9a6a3
+INFO: key_placer.py:640: Removing 23640518-783c-4f82-bd27-9336093dd822
+INFO: key_placer.py:640: Removing 1abf0c80-724e-4dbf-b705-072a16330321
+INFO: key_placer.py:640: Removing 49992009-615e-4c2f-8672-c17829df06d0
+INFO: key_placer.py:640: Removing c58399e5-bbeb-4d87-b34f-908d20728c06
+INFO: key_placer.py:640: Removing 590f9f89-07b2-4041-bca0-9b1c67a83cb1
+INFO: key_placer.py:640: Removing 5f266343-e3bb-4814-b672-b11c54792566
+INFO: key_placer.py:640: Removing 3d204cd0-aec0-4469-a98a-79b139c27b5d
+INFO: key_placer.py:640: Removing 5b3d0e75-214e-49f4-a882-c44e519280bf
+INFO: key_placer.py:640: Removing b53f16ce-3535-408a-899d-7da60f853774
+INFO: key_placer.py:640: Removing a597e9da-16d8-47e1-b48d-48710d448544
+INFO: key_placer.py:640: Removing 76dcc027-99d3-4319-9264-eac18b6f1d54
+INFO: key_placer.py:640: Removing 23a38945-3f39-4d3b-9154-bdb663ca5f9b
+INFO: key_placer.py:640: Removing e07b3580-b2d8-4e77-ab71-1fb9bd034b2d
+INFO: key_placer.py:640: Removing 6581bd38-7905-4c1d-bd85-c684bce03481
+INFO: key_placer.py:640: Removing c9d05cac-4024-43d2-adba-ba31b851050b
+INFO: key_placer.py:640: Removing 40d18557-540e-47cf-ac48-40fff92c42e8
+INFO: edge_generator.py:141: Running board edge generation around footprints with annotation matching 'SW{}' format
