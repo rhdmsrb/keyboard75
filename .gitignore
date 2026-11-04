@@ -2,3 +2,13 @@ libs/
 Untitled*
 *-backups/
 *.kicad_prl
+
+.history/
+**/.history/
+*.lck
+~*.lck
+kbplacer.log
+libs/
+Untitled*
+*-backups/
+*.kicad_prl
